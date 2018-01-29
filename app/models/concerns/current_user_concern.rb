@@ -5,7 +5,7 @@ module CurrentUserConcern
     super || guest_user
   end
   def current_user
-    super || OpenStruct.new(name: "Guest User", 
+    OpenStruct.new(name: "Guest User", 
                             first_name: "Guest", 
                             last_name: "User", 
                             email: "guest@example.com")
