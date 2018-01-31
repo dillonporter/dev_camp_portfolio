@@ -1,6 +1,6 @@
 GIT
   remote: https://github.com/dillonporter/dillon_view_tool
-  revision: 755d1a68e1b617076127bc270c639626d46bf05f
+  revision: 0f59c85ad0c531818b9de59399fc1bdef5e1962e
   specs:
     dillon_view_tool (0.1.0)
 

@@ -14,4 +14,8 @@ module ApplicationHelper
       content_tag(:p, greeting, class: "source-greeting")
     end
   end
+
+  def copyright_generator
+    DillonViewTool::Renderer.copyright 'Dillon Porter', 'All rights reserved'
+  end
 end
