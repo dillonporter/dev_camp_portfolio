@@ -63,3 +63,8 @@ puts "9 portfolio items created"
     name: "Technology #{technology}"
   )
 end
+
+
+User.create(name:"Dillon Porter", email:"dillon1@dillon.com", password:"asdfasdf", password_confirmation:"asdfasdf", role:"site_admin")
+
+puts "You have created one admin user"
