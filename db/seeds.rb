@@ -65,6 +65,21 @@ puts "9 portfolio items created"
 end
 
 
-User.create(name:"Dillon Porter", email:"dillon1@dillon.com", password:"asdfasdf", password_confirmation:"asdfasdf", role:"site_admin")
+User.create!(
+  email:"test@test.com", 
+  password:"asdfasdf", 
+  password_confirmation:"asdfasdf", 
+  name: "Admin User",
+  role:"site_admin"
+  )
 
-puts "You have created one admin user"
+puts "1 Admin user created"
+
+User.create!(
+  email:"test2@test.com", 
+  password:"asdfasdf", 
+  password_confirmation:"asdfasdf", 
+  name: "Regular User"
+  )
+
+puts "1 regular user created"
