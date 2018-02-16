@@ -17,7 +17,7 @@ module ApplicationHelper
   end
 
   def copyright_generator
-    DillonViewTool::Renderer.copyright 'Jordan Hudgens', 'All rights reserved'
+    DillonViewTool::Renderer.copyright 'Dillon Porter', 'All rights reserved'
   end
 
   def nav_items
